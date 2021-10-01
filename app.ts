@@ -15,6 +15,17 @@ const HTML = `
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
     />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
   </head>
   <body>
     <div id="app">
@@ -56,6 +67,16 @@ const HTML = `
           results: [],
         },
       });
+    </script>
+
+    <script>
+      Toastify({
+        text: '加油ヾ(◍°∇°◍)ﾉﾞ',
+        duration: 3000,
+        gravity: 'top',
+        position: 'center',
+        backgroundColor: 'linear-gradient(to right, #00b09b, #96c93d)',
+      }).showToast();
     </script>
   </body>
 </html>
